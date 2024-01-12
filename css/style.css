@@ -1,3 +1,22 @@
+:root {
+  --white: #ffffff;
+  --smoky: #f4f6f5;
+  --black: #2c2d35;
+  --black-gray: #4c5866;
+
+  --primary: #598d66;
+  --moderate-green: #376b44;
+  --pastel-green: #d4e8d9;
+  --dirty-green: #86928b;
+  --bg-green: #e1ede6;
+  --grideperleft: #c3d1c6;
+
+  --accent: #eedb6d;
+  --crayola: #faeb97;
+  --honey-yellow: #a38314;
+  --dirty-yellow: #d9b949;
+}
+
 /* Reset and base styles  */
 * {
   padding: 0px;
