@@ -81,6 +81,43 @@
           </div>
         </div>
       </header>
+      <main class="main">
+        <section class="basic _container">
+          <div class="basic__container">
+            <picture>
+              <source
+                srcset="./assets/images/main-full.png"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="./assets/images/main-tablet.png"
+                media="(min-width: 690px) and (max-width: 1440px)"
+              />
+              <source
+                srcset="./assets/images/main-mobile.png"
+                media="(min-width: 510px) and (max-width: 690px)"
+              />
+
+              <img
+                class="basic__img"
+                scr="./assets/images/main-full.png"
+                alt="Bird"
+              />
+            </picture>
+
+            <div class="basic__info">
+              <h1 class="basic__title">
+                Реплики картин от <a href="/" class="link">Ink. House</a>
+              </h1>
+              <p class="basic__description">
+                Высокое качество отрисовки на плотной бумаге или льняном холсте.
+                Редкие произведения, доступные цены.
+              </p>
+              <button class="button basic__button">Продукция</button>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <script src="./js/script.js"></script>
   </body>
