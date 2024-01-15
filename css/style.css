@@ -582,6 +582,47 @@ body._lock {
   height: 50px;
 }
 
+/*-team--------------------------------------------------------------------------------------------------------------*/
+.team {
+  background-color: var(--smoky);
+}
+
+.team__container {
+  padding-top: 59px;
+  padding-bottom: 50px;
+}
+
+.team__img {
+  margin-bottom: 30px;
+}
+
+.team__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.team__text {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.team__people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 /*-media--------------------------------------------------------------------------------------------------------------*/
 
 @media (hover: hover) {
@@ -869,6 +910,22 @@ body._lock {
     width: 190px;
     height: 50px;
   }
+
+  /*-.team----------------------------------------------------------------------------------------------------------*/
+  .team__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .team__img {
+    width: 304px;
+  }
+
+  .team__people {
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1087,6 +1144,25 @@ body._lock {
     width: 210px;
     height: 60px;
   }
+
+  /*-.team----------------------------------------------------------------------------------------------------------*/
+  .team__container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .team__img {
+    width: 414px;
+  }
+
+  .team__main {
+    row-gap: 30px;
+  }
+
+  .team__text {
+    font-size: 18px;
+    line-height: 150%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1168,5 +1244,34 @@ body._lock {
   .information__button {
     width: 257px;
     height: 65px;
+  }
+
+  /*-.team----------------------------------------------------------------------------------------------------------*/
+  .team__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+  }
+
+  .team__img {
+    width: 445px;
+    margin-bottom: 0px;
+  }
+
+  .team__main {
+    row-gap: 20px;
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+    margin-bottom: 44px;
+  }
+
+  .team__people {
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
   }
 }
