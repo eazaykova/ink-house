@@ -91,11 +91,11 @@
               />
               <source
                 srcset="./assets/images/main-tablet.png"
-                media="(min-width: 690px) and (max-width: 1440px)"
+                media="(min-width: 768px) and (max-width: 1440px)"
               />
               <source
                 srcset="./assets/images/main-mobile.png"
-                media="(min-width: 510px) and (max-width: 690px)"
+                media="(min-width: 576px) and (max-width: 768px)"
               />
 
               <img
@@ -114,6 +114,79 @@
                 Редкие произведения, доступные цены.
               </p>
               <button class="button basic__button">Продукция</button>
+            </div>
+          </div>
+        </section>
+        <section class="reproductions">
+          <div class="reproductions__container _container">
+            <div class="reproductions__top">
+              <h2 class="reproductions__title title">Репродукции</h2>
+              <div class="reproductions__buttons">
+                <button
+                  id="france"
+                  class="button button_shape_oval button_bg_green button_active"
+                >
+                  Франция
+                </button>
+                <button
+                  id="germany"
+                  class="button button_shape_oval button_bg_green"
+                >
+                  Германия
+                </button>
+                <button
+                  id="england"
+                  class="button button_shape_oval button_bg_green"
+                >
+                  Англия
+                </button>
+              </div>
+            </div>
+
+            <div id="repro_list" class="reproductions__list">
+              <template id="template">
+                <div class="item-card reproductions__card">
+                  <figure>
+                    <picture>
+                      <source
+                        type="image/png"
+                        srcset=""
+                        media="(min-width: 1440px)"
+                      />
+                      <source
+                        type="image/png"
+                        srcset=""
+                        media="(min-width: 768px) and (max-width: 1440px)"
+                      />
+                      <source
+                        type="image/png"
+                        srcset=""
+                        media="(min-width: 576px) and (max-width: 768px)"
+                      />
+                      <source
+                        type="image/png"
+                        srcset=""
+                        media="(max-width: 576px)"
+                      />
+                      <img class="item-card__img" scr="" alt="" />
+                    </picture>
+                    <figcaption>
+                      <p class="item-card__author"></p>
+                      <p class="item-card__name"></p>
+                      <p class="item-card__info"></p>
+                    </figcaption>
+                  </figure>
+
+                  <div class="item-card__bottom">
+                    <p class="item-card__price"></p>
+                    <button
+                      class="button item-card__button reproductions__button"
+                    >
+                      В корзину
+                    </button>
+                  </div>
+                </div>
+              </template>
             </div>
           </div>
         </section>
