@@ -4,10 +4,10 @@ const reproductions = [
     data: [
       {
         img: {
-          mobile: "../assets/images/hunting-cupid-mobile.png",
-          tableS: "../assets/images/hunting-cupid-table-510.png",
-          tableM: "../assets/images/hunting-cupid-table-690.png",
-          full: "../assets/images/hunting-cupid-full.png",
+          mobile: "./assets/images/hunting-cupid-mobile.png",
+          tableS: "./assets/images/hunting-cupid-table-510.png",
+          tableM: "./assets/images/hunting-cupid-table-690.png",
+          full: "./assets/images/hunting-cupid-full.png",
         },
         author: "Марсель Руссо",
         name: "Охота Амура",
@@ -16,10 +16,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/lady-with-a-dog-mobile.png",
-          tableS: "../assets/images/lady-with-a-dog-table-510.png",
-          tableM: "../assets/images/lady-with-a-dog-table-690.png",
-          full: "../assets/images/lady-with-a-dog-full.png",
+          mobile: "./assets/images/lady-with-a-dog-mobile.png",
+          tableS: "./assets/images/lady-with-a-dog-table-510.png",
+          tableM: "./assets/images/lady-with-a-dog-table-690.png",
+          full: "./assets/images/lady-with-a-dog-full.png",
         },
         author: "Анри Селин",
         name: "Дама с собачкой",
@@ -28,10 +28,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/procedure-mobile.png",
-          tableS: "../assets/images/procedure-table-510.png",
-          tableM: "../assets/images/procedure-table-690.png",
-          full: "../assets/images/procedure-full.png",
+          mobile: "./assets/images/procedure-mobile.png",
+          tableS: "./assets/images/procedure-table-510.png",
+          tableM: "./assets/images/procedure-table-690.png",
+          full: "./assets/images/procedure-full.png",
         },
         author: "Франсуа Дюпон",
         name: "Процедура",
@@ -40,10 +40,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/rose-mobile.png",
-          tableS: "../assets/images/rose-table-510.png",
-          tableM: "../assets/images/rose-table-690.png",
-          full: "../assets/images/rose-full.png",
+          mobile: "./assets/images/rose-mobile.png",
+          tableS: "./assets/images/rose-table-510.png",
+          tableM: "./assets/images/rose-table-690.png",
+          full: "./assets/images/rose-full.png",
         },
         author: "Луи Детуш",
         name: "Роза",
@@ -52,10 +52,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/bird-is-meal-mobile.png",
-          tableS: "../assets/images/bird-is-meal-table-510.png",
-          tableM: "../assets/images/bird-is-meal-table-690.png",
-          full: "../assets/images/bird-is-meal-full.png",
+          mobile: "./assets/images/bird-is-meal-mobile.png",
+          tableS: "./assets/images/bird-is-meal-table-510.png",
+          tableM: "./assets/images/bird-is-meal-table-690.png",
+          full: "./assets/images/bird-is-meal-full.png",
         },
         author: "Франсуа Дюпон",
         name: "Птичья трапеза",
@@ -64,10 +64,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/landscape-with-fish-mobile.png",
-          tableS: "../assets/images/landscape-with-fish-table-510.png",
-          tableM: "../assets/images/landscape-with-fish-table-690.png",
-          full: "../assets/images/landscape-with-fish-full.png",
+          mobile: "./assets/images/landscape-with-fish-mobile.png",
+          tableS: "./assets/images/landscape-with-fish-table-510.png",
+          tableM: "./assets/images/landscape-with-fish-table-690.png",
+          full: "./assets/images/landscape-with-fish-full.png",
         },
         author: "Пьер Моранж",
         name: "Пейзаж с рыбой",
@@ -81,10 +81,10 @@ const reproductions = [
     data: [
       {
         img: {
-          mobile: "../assets/images/above-the-city-mobile.png",
-          tableS: "../assets/images/above-the-city-table-510.png",
-          tableM: "../assets/images/above-the-city-table-690.png",
-          full: "../assets/images/above-the-city-full.png",
+          mobile: "./assets/images/above-the-city-mobile.png",
+          tableS: "./assets/images/above-the-city-table-510.png",
+          tableM: "./assets/images/above-the-city-table-690.png",
+          full: "./assets/images/above-the-city-full.png",
         },
         author: "Курт Вернер",
         name: "Над городом",
@@ -93,10 +93,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/chicks-mobile.png",
-          tableS: "../assets/images/chicks-table-510.png",
-          tableM: "../assets/images/chicks-table-690.png",
-          full: "../assets/images/chicks-full.png",
+          mobile: "./assets/images/chicks-mobile.png",
+          tableS: "./assets/images/chicks-table-510.png",
+          tableM: "./assets/images/chicks-table-690.png",
+          full: "./assets/images/chicks-full.png",
         },
         author: "Макс Рихтер",
         name: "Птенцы",
@@ -105,10 +105,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/among-the-leaves-mobile.png",
-          tableS: "../assets/images/among-the-leaves-table-510.png",
-          tableM: "../assets/images/among-the-leaves-table-690.png",
-          full: "../assets/images/among-the-leaves-full.png",
+          mobile: "./assets/images/among-the-leaves-mobile.png",
+          tableS: "./assets/images/among-the-leaves-table-510.png",
+          tableM: "./assets/images/among-the-leaves-table-690.png",
+          full: "./assets/images/among-the-leaves-full.png",
         },
         author: "Мартин Майер",
         name: "Среди листьев",
@@ -117,10 +117,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/bright-bird-mobile.png",
-          tableS: "../assets/images/bright-bird-table-510.png",
-          tableM: "../assets/images/bright-bird-table-690.png",
-          full: "../assets/images/bright-bird-full.png",
+          mobile: "./assets/images/bright-bird-mobile.png",
+          tableS: "./assets/images/bright-bird-table-510.png",
+          tableM: "./assets/images/bright-bird-table-690.png",
+          full: "./assets/images/bright-bird-full.png",
         },
         author: "Герман Беккер",
         name: "Яркая птица",
@@ -129,10 +129,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/woodpeckers-mobile.png",
-          tableS: "../assets/images/woodpeckers-table-510.png",
-          tableM: "../assets/images/woodpeckers-table-690.png",
-          full: "../assets/images/woodpeckers-full.png",
+          mobile: "./assets/images/woodpeckers-mobile.png",
+          tableS: "./assets/images/woodpeckers-table-510.png",
+          tableM: "./assets/images/woodpeckers-table-690.png",
+          full: "./assets/images/woodpeckers-full.png",
         },
         author: "Вульф Бауэр",
         name: "Дятлы",
@@ -141,10 +141,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/big-waters-mobile.png",
-          tableS: "../assets/images/big-waters-table-510.png",
-          tableM: "../assets/images/big-waters-table-690.png",
-          full: "../assets/images/big-waters-full.png",
+          mobile: "./assets/images/big-waters-mobile.png",
+          tableS: "./assets/images/big-waters-table-510.png",
+          tableM: "./assets/images/big-waters-table-690.png",
+          full: "./assets/images/big-waters-full.png",
         },
         author: "Вальтер Хартманн",
         name: "Большие воды",
@@ -158,10 +158,10 @@ const reproductions = [
     data: [
       {
         img: {
-          mobile: "../assets/images/wild-animal-mobile.png",
-          tableS: "../assets/images/wild-animal-table-510.png",
-          tableM: "../assets/images/wild-animal-table-690.png",
-          full: "../assets/images/wild-animal-full.png",
+          mobile: "./assets/images/wild-animal-mobile.png",
+          tableS: "./assets/images/wild-animal-table-510.png",
+          tableM: "./assets/images/wild-animal-table-690.png",
+          full: "./assets/images/wild-animal-full.png",
         },
         author: "Пол Смит",
         name: "Дикий зверь",
@@ -170,10 +170,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/rocky-coast-mobile.png",
-          tableS: "../assets/images/rocky-coast-table-510.png",
-          tableM: "../assets/images/rocky-coast-table-690.png",
-          full: "../assets/images/rocky-coast-full.png",
+          mobile: "./assets/images/rocky-coast-mobile.png",
+          tableS: "./assets/images/rocky-coast-table-510.png",
+          tableM: "./assets/images/rocky-coast-table-690.png",
+          full: "./assets/images/rocky-coast-full.png",
         },
         author: "Джон Уайт",
         name: "Скалистый берег",
@@ -182,10 +182,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/river-and-mountains-mobile.jpg",
-          tableS: "../assets/images/river-and-mountains-table-510.jpg",
-          tableM: "../assets/images/river-and-mountains-table-690.jpg",
-          full: "../assets/images/river-and-mountains-full.jpg",
+          mobile: "./assets/images/river-and-mountains-mobile.jpg",
+          tableS: "./assets/images/river-and-mountains-table-510.jpg",
+          tableM: "./assets/images/river-and-mountains-table-690.jpg",
+          full: "./assets/images/river-and-mountains-full.jpg",
         },
         author: "Джим Уотсон",
         name: "Река и горы",
@@ -194,10 +194,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/white-parrot-mobile.png",
-          tableS: "../assets/images/white-parrot-table-510.png",
-          tableM: "../assets/images/white-parrot-table-690.png",
-          full: "../assets/images/white-parrot-full.png",
+          mobile: "./assets/images/white-parrot-mobile.png",
+          tableS: "./assets/images/white-parrot-table-510.png",
+          tableM: "./assets/images/white-parrot-table-690.png",
+          full: "./assets/images/white-parrot-full.png",
         },
         author: "Юджин Зиллион",
         name: "Белый попугай",
@@ -206,10 +206,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/night-fish-mobile.png",
-          tableS: "../assets/images/night-fish-table-510.png",
-          tableM: "../assets/images/night-fish-table-690.png",
-          full: "../assets/images/night-fish-full.png",
+          mobile: "./assets/images/night-fish-mobile.png",
+          tableS: "./assets/images/night-fish-table-510.png",
+          tableM: "./assets/images/night-fish-table-690.png",
+          full: "./assets/images/night-fish-full.png",
         },
         author: "Эрик Гиллман",
         name: "Ночная рыба",
@@ -218,10 +218,10 @@ const reproductions = [
       },
       {
         img: {
-          mobile: "../assets/images/ginger-cat-mobile.png",
-          tableS: "../assets/images/ginger-cat-table-510.png",
-          tableM: "../assets/images/ginger-cat-table-690.png",
-          full: "../assets/images/ginger-cat-full.png",
+          mobile: "./assets/images/ginger-cat-mobile.png",
+          tableS: "./assets/images/ginger-cat-table-510.png",
+          tableM: "./assets/images/ginger-cat-table-690.png",
+          full: "./assets/images/ginger-cat-full.png",
         },
         author: "Альфред Барр",
         name: "Рыжий кот",
